@@ -1,0 +1,13 @@
+server:
+  port: 7575
+minio:
+  bucket:
+    name: naveen
+  default:
+    folder: /
+  access:
+    name: Naveen@123
+    secret: Naveen@123
+  url: http://localhost:9000
+file:
+  location: /tmp/
